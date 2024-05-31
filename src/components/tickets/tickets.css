@@ -1,0 +1,56 @@
+.tickets {
+    /* background-color: white; */
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: space-around;
+    align-content: center;
+
+    
+}
+
+.card {
+    background-color: rgb(87, 86, 86);
+    height: 20%;
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1024px) {
+  .tickets{
+    margin-top: 5rem;
+    height: 30%;
+}
+  }
+
+@media screen and (max-width: 992px) {
+  .tickets{
+    flex-direction: column;
+    height: 100%;
+}
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .tickets{
+        flex-direction: column;
+        height: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .tickets {
+      height: 100%;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .tickets {
+      height: 100%;
+    }
+  }
+  

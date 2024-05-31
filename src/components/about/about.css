@@ -1,0 +1,40 @@
+.about {
+    /* background-color: white; */
+    height: 90vh;
+    display: flex;
+    gap: 6rem;
+    margin: 10px 0px 25px 0px; 
+    color: black;
+    align-items: center;
+}
+
+.text p{
+    color: white;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+   
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+   .about {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+   }
+   .text p{
+    margin-bottom: 2rem;
+}
+  }
+  
+  @media screen and (max-width: 576px) {
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    
+  }
+  
